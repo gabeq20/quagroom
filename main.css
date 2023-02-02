@@ -1,0 +1,2439 @@
+@media all and (max-width: 500px) {
+	/* resests the default browser style */
+	* {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: 0px;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+
+	body {
+		background-color: black;
+	}
+
+
+	#page-container {
+		width: 100%;
+	}
+
+
+	/* resets the default link style */
+	a {
+		text-decoration: none;
+	}
+	/**/
+
+
+	span {
+		font-family: "Courier New";
+		color: red;
+	}
+
+	#width {
+		top: 50%;
+		left: 50%;
+	}
+
+	/* beat detail specific */
+	.beat-wrap span {
+		position: relative;
+		font-size: 20px;
+	}
+
+	.beat-number {
+		padding-left: 1%;
+	}
+
+	.play-pause {
+		left: 0.6%;
+	}
+
+	.download {
+		left: 1.2%;
+	}
+
+	.beat-wrap {
+		padding-top: 1%;
+		margin: 0 auto;
+		width: 195px;
+	}
+
+	.play-pause:hover {
+		color: black;
+	}
+
+	.download:hover {
+		color: black;
+	}
+	/**/
+
+
+	/* date specific */
+
+	.date11 span {
+		position: relative;
+		font-size: 20px;
+	}
+
+	.date12 span {
+		position: relative;
+		font-size: 20px;
+	}
+
+	.date13 span {
+		position: relative;
+		font-size: 20px;
+	}
+
+	.date {
+		z-index: 300;
+		left: 1.8%;
+	}
+
+	.date11 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 238px;
+	}
+
+	.date12 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 251px;
+	}
+
+	.date13 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 264px;
+	}
+
+	.current-date {
+		position: absolute;
+		background-color: black;
+		right: 0%;
+		padding-right: 1%;
+		display: none;
+	}
+
+	#date-header {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+
+	#date-footer {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+	/**/
+
+
+	/* header specific */
+	#header {
+		position: fixed;
+		width: 100%;
+		z-index: 400;
+		font-size: 20px; 
+		top: 0px;
+		background-color: black; 
+	}
+
+	#quagroom-1-header {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-2-header {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-3-header {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-4-header {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-5-header {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-6-header {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-7-header {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-8-header {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-9-header {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-10-header {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-11-header {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-12-header {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-13-header {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-14-header {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-15-header {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-16-header {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-17-header {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-18-header {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-19-header {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-20-header {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-21-header {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-22-header {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-23-header {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-24-header {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-25-header {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-26-header {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+		width: 200px;
+		background-color: black;
+	}
+	/**/
+
+
+	/* footer specific */
+	#footer {
+		position: fixed;
+		width: 100%;
+		z-index: 400;
+		font-size: 20px;
+		bottom: 0px;
+		background-color: black;
+	}
+
+	#quagroom-1-footer {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-2-footer {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-3-footer {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-4-footer {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-5-footer {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-6-footer {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-7-footer {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-8-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-9-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-10-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-11-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-12-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-13-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-14-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-15-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-16-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-17-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-18-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-19-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-20-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-21-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-22-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-23-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-24-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-25-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-26-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+		width: 200px;
+		background-color: black;
+	}
+	/**/
+
+	#pause-resume {
+		position: fixed;
+		z-index: 9000;
+		top: 20%;
+		width: 67px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#pause-resume-text {
+		font-size: 110px;
+	}
+
+	#end-beat {
+		position: fixed;
+		z-index: 9500;
+		bottom: 20%;
+		width: 260.5px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#end-beat-text {
+		font-size: 110px;
+	}
+
+
+	.email { /* orig background was black */
+	/*	position: relative;  */
+		position: relative;
+		z-index: 1000;
+		left: 0%;
+		padding-left: 1%;
+		padding-right: 1%;
+		background-color: black;
+		opacity: 0%;
+
+	}
+
+	.placeholder {
+		font-size: 20px;
+	}
+
+	.placeholder span {
+		color: black;
+	}
+}
+
+@media all and (min-width: 500px) and (max-width: 600px) {
+	/* resests the default browser style */
+	* {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: 0px;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+
+	body {
+		background-color: black;
+	}
+
+
+	#page-container {
+		width: 100%;
+	}
+
+
+	/* resets the default link style */
+	a {
+		text-decoration: none;
+	}
+	/**/
+
+
+	span {
+		font-family: "Courier New";
+		color: red;
+	}
+
+	#width {
+		top: 50%;
+		left: 50%;
+	}
+
+	/* beat detail specific */
+	.beat-wrap span {
+		position: relative;
+		font-size: 25px;
+	}
+
+	.hyperdunk-wrap span {
+		position: relative;
+		font-size: 25px;
+	}
+
+	.beat-number {
+		padding-left: 1%;
+	}
+
+	.play-pause {
+		left: 0.6%;
+	}
+
+	.download {
+		left: 1.2%;
+	}
+
+	.beat-wrap {
+		padding-top: 1%;
+		margin: 0 auto;
+		width: 243px;
+	}
+
+	.hyperdunk-wrap {
+		padding-top: 1%;
+		margin: 0 auto;
+		width: 425px;
+
+	}
+
+	.play-pause:hover {
+		color: black;
+	}
+
+	.download:hover {
+		color: black;
+	}
+	/**/
+
+
+	/* date specific */
+
+	.date11 span {
+		position: relative;
+		font-size: 25px;
+	}
+
+	.date12 span {
+		position: relative;
+		font-size: 25px;
+	}
+
+	.date13 span {
+		position: relative;
+		font-size: 25px;
+	}
+
+	.date {
+		z-index: 300;
+		left: 1.8%;
+	}
+
+	.date11 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 298px;
+	}
+
+	.date12 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 314px;
+	}
+
+	.date13 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 330px;
+	}
+
+	.current-date {
+		position: absolute;
+		background-color: black;
+		right: 0%;
+		padding-right: 1%;
+		display: none;
+	}
+
+	#date-header {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+
+	#date-footer {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+	/**/
+
+
+	/* header specific */
+	#header {
+		position: fixed;
+		width: 100%;
+		z-index: 400;
+		font-size: 25px; 
+		top: 0px;
+		background-color: black; 
+	}
+
+	#quagroom-1-header {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-2-header {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-3-header {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-4-header {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-5-header {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-6-header {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-7-header {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-8-header {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-9-header {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-10-header {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-11-header {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-12-header {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-13-header {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-14-header {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-15-header {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-16-header {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-17-header {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-18-header {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-19-header {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-20-header {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-21-header {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-22-header {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-23-header {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-24-header {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-25-header {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-26-header {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+		width: 200px;
+		background-color: black;
+	}
+	/**/
+
+
+	/* footer specific */
+	#footer {
+		position: fixed;
+		width: 100%;
+		z-index: 400;
+		font-size: 25px;
+		bottom: 0px;
+		background-color: black;
+	}
+
+	#quagroom-1-footer {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-2-footer {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-3-footer {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-4-footer {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-5-footer {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-6-footer {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-7-footer {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-8-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-9-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-10-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-11-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-12-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-13-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-14-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-15-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-16-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-17-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-18-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-19-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-20-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-21-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-22-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-23-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-24-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-25-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-26-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+		width: 200px;
+		background-color: black;
+	}
+	/**/
+
+	#pause-resume {
+		position: fixed;
+		z-index: 9000;
+		top: 7%;
+		width: 90px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#pause-resume-text {
+		font-size: 150px;
+	}
+
+	#end-beat {
+		position: fixed;
+		z-index: 9500;
+		bottom: 7%;
+		width: 355px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#end-beat-text {
+		font-size: 150px;
+	}
+
+
+	.email { /* orig background was black */
+	/*	position: relative;  */
+		position: relative;
+		z-index: 1000;
+		left: 0%;
+		padding-left: 1%;
+		padding-right: 1%;
+		background-color: black;
+		opacity: 0%;
+	
+	/*	display: none; */
+/*
+		position: absolute;
+		background-color: black;
+		left: 0%;
+		padding-left: 1%;
+		display: none; 
+*/
+	}
+
+	.placeholder {
+		font-size: 25px;
+	}
+
+	.placeholder span {
+		color: black;
+	}
+}
+
+@media all and (min-width: 600px) and (max-width: 992px) {
+	/* resests the default browser style */
+	* {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: 0px;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+
+	body {
+		background-color: black;
+	}
+
+
+	#page-container {
+		width: 100%;
+	}
+
+
+	/* resets the default link style */
+	a {
+		text-decoration: none;
+	}
+	/**/
+
+
+	span {
+		font-family: "Courier New";
+		color: red;
+	}
+
+	#width {
+		top: 50%;
+		left: 50%;
+	}
+
+	/* beat detail specific */
+	.beat-wrap span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.hyperdunk-wrap span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.beat-number {
+		padding-left: 1%;
+	}
+
+	.play-pause {
+		left: 0.6%;
+	}
+
+	.download {
+		left: 1.2%;
+	}
+
+	.beat-wrap {
+		padding-top: 1%;
+		margin: 0 auto;
+		width: 290px;
+	}
+
+	.hyperdunk-wrap {
+		padding-top: 1%;
+		margin: 0 auto;
+		width: 425px;
+
+	}
+
+	.play-pause:hover {
+		color: black;
+	}
+
+	.download:hover {
+		color: black;
+	}
+	/**/
+
+
+	/* date specific */
+
+	.date11 span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.date12 span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.date13 span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.date {
+		z-index: 300;
+		left: 1.8%;
+	}
+
+	.date11 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 357px;
+	}
+
+	.date12 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 377px;
+	}
+
+	.date13 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 395px;
+	}
+
+	.current-date {
+		position: absolute;
+		background-color: black;
+		right: 0%;
+		padding-right: 1%;
+		display: none; 
+	}
+
+	#date-header {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+
+	#date-footer {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+	/**/
+
+
+	/* header specific */
+	#header {
+		position: fixed;
+		width: 100%;
+		z-index: 400;
+		font-size: 30px; 
+		top: 0px;
+		background-color: black; 
+	}
+
+	#quagroom-1-header {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-2-header {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-3-header {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-4-header {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-5-header {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-6-header {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-7-header {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-8-header {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-9-header {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-10-header {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-11-header {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-12-header {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-13-header {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-14-header {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-15-header {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-16-header {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-17-header {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-18-header {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-19-header {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-20-header {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-21-header {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-22-header {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-23-header {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-24-header {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-25-header {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-26-header {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+		width: 200px;
+		background-color: black;
+	}
+	/**/
+
+
+	/* footer specific */
+	#footer {
+		position: fixed;
+		width: 100%;
+		z-index: 400;
+		font-size: 30px;
+		bottom: 0px;
+		background-color: black;
+	}
+
+	#quagroom-1-footer {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-2-footer {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-3-footer {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-4-footer {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-5-footer {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-6-footer {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-7-footer {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-8-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-9-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-10-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-11-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-12-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-13-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-14-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-15-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-16-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-17-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-18-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-19-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-20-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-21-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-22-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-23-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-24-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-25-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+		width: 200px;
+		background-color: black;
+	}
+
+	#quagroom-26-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+		width: 200px;
+		background-color: black;
+	}
+	/**/
+
+	#pause-resume {
+		position: fixed;
+		z-index: 9000;
+		top: 7%;
+		width: 120px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#pause-resume-text {
+		font-size: 200px;
+	}
+
+	#end-beat {
+		position: fixed;
+		z-index: 9500;
+		bottom: 7%;
+		width: 475px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#end-beat-text {
+		font-size: 200px;
+	}
+
+
+	.email { /* orig background was black */
+		position: relative;
+		z-index: 1000;
+		left: 0%;
+		padding-left: 1%;
+		padding-right: 1%;
+		background-color: black;
+		opacity: 0%;
+	}
+
+	.placeholder {
+		font-size: 30px;
+	}
+
+	.placeholder span {
+		color: black;
+	}
+}
+
+@media all and (min-width: 992px) {
+	/* resests the default browser style */
+	* {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: 0px;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+
+	body {
+		background-color: black;
+	}
+
+	#page-container {
+		width: 100%;
+	}
+
+
+	/* resets the default link style */
+	a {
+		text-decoration: none;
+	}
+	/**/
+
+
+	span {
+		font-family: "Courier New";
+		color: red;
+	}
+
+	#width {
+		top: 50%;
+		left: 50%;
+	}
+
+	/* beat detail specific */
+	.beat-wrap span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.hyperdunk-wrap span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.beat-number {
+		padding-left: 1%;
+	}
+
+	.play-pause {
+		left: 0.6%;
+	}
+
+	.download {
+		left: 1.2%;
+	}
+
+	.beat-wrap {
+		padding-top: 1%;
+		margin: 0 auto;
+		width: 290px;
+	}
+
+	.hyperdunk-wrap {
+		padding-top: 1%;
+		margin: 0 auto;
+		width: 425px;
+
+	}
+
+	.play-pause:hover {
+		color: black;
+	}
+
+	.download:hover {
+		color: black;
+	}
+	/**/
+
+
+	/* date specific */
+
+	.date11 span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.date12 span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.date13 span {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.date {
+		z-index: 300;
+		left: 1.8%;
+	}
+
+	.date11 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 357px;
+	}
+
+	.date12 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 377px;
+	}
+
+	.date13 {
+		padding-top: 0%;
+		padding-bottom: 5%;
+		margin: 0 auto;
+		width: 395px;
+	}
+
+	.current-date {
+		position: absolute;
+		background-color: black;
+		right: 0%;
+		padding-right: 1%;
+	}
+
+	#date-header {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+
+	#date-footer {
+		z-index: 1000;
+		padding-left: 1%;
+		background-color: black;
+	}
+	/**/
+
+
+	/* header specific */
+	#header {
+		position: fixed;
+		width: 100%;
+		z-index: 400;
+		font-size: 30px; 
+		background-color: black; 
+	}
+
+	#quagroom-1-header {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+	}
+
+	#quagroom-2-header {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+	}
+
+	#quagroom-3-header {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+	}
+
+	#quagroom-4-header {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+	}
+
+	#quagroom-5-header {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+	}
+
+	#quagroom-6-header {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+	}
+
+	#quagroom-7-header {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+	}
+
+	#quagroom-8-header {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+	}
+
+	#quagroom-9-header {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+	}
+
+	#quagroom-10-header {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+	}
+
+	#quagroom-11-header {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+	}
+
+	#quagroom-12-header {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+	}
+
+	#quagroom-13-header {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+	}
+
+	#quagroom-14-header {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+	}
+
+	#quagroom-15-header {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+	}
+
+	#quagroom-16-header {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+	}
+
+	#quagroom-17-header {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+	}
+
+	#quagroom-18-header {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+	}
+
+	#quagroom-19-header {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+	}
+
+	#quagroom-20-header {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+	}
+
+	#quagroom-21-header {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+	}
+
+	#quagroom-22-header {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+	}
+
+	#quagroom-23-header {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+	}
+
+	#quagroom-24-header {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+	}
+
+	#quagroom-25-header {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+	}
+
+	#quagroom-26-header {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+	}
+	/**/
+
+
+	/* footer specific */
+	#footer {
+		position: fixed;
+		width: 100%;
+		bottom: 0%;
+		z-index: 400;
+		font-size: 30px; 
+		background-color: black;
+	}
+
+	#quagroom-1-footer {
+		position: absolute;
+		z-index: 500;
+		right: -400px;
+	}
+
+	#quagroom-2-footer {
+		position: absolute;
+		z-index: 500;
+		right: -200px;
+	}
+
+	#quagroom-3-footer {
+		position: absolute;
+		z-index: 500;
+		right: 0px;
+	}
+
+	#quagroom-4-footer {
+		position: absolute;
+		z-index: 500;
+		right: 200px;
+	}
+
+	#quagroom-5-footer {
+		position: absolute;
+		z-index: 500;
+		right: 400px;
+	}
+
+	#quagroom-6-footer {
+		position: absolute;
+		z-index: 500;
+		right: 600px;
+	}
+
+	#quagroom-7-footer {
+		position: absolute;
+		z-index: 500;
+		right: 800px;
+	}
+
+	#quagroom-8-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1000px;
+	}
+
+	#quagroom-9-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1200px;
+	}
+
+	#quagroom-10-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1400px;
+	}
+
+	#quagroom-11-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1600px;
+	}
+
+	#quagroom-12-footer {
+		position: absolute;
+		z-index: 500;
+		right: 1800px;
+	}
+
+	#quagroom-13-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2000px;
+	}
+
+	#quagroom-14-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2200px;
+	}
+
+	#quagroom-15-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2400px;
+	}
+
+	#quagroom-16-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2600px;
+	}
+
+	#quagroom-17-footer {
+		position: absolute;
+		z-index: 500;
+		right: 2800px;
+	}
+
+	#quagroom-18-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3000px;
+	}
+
+	#quagroom-19-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3200px;
+	}
+
+	#quagroom-20-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3400px;
+	}
+
+	#quagroom-21-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3600px;
+	}
+
+	#quagroom-22-footer {
+		position: absolute;
+		z-index: 500;
+		right: 3800px;
+	}
+
+	#quagroom-23-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4000px;
+	}
+
+	#quagroom-24-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4200px;
+	}
+
+	#quagroom-25-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4400px;
+	}
+
+	#quagroom-26-footer {
+		position: absolute;
+		z-index: 500;
+		right: 4600px;
+	}
+	/**/
+
+	#pause-resume {
+		position: fixed;
+		z-index: 9000;
+		top: 7%;
+		width: 120px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#pause-resume-text {
+		font-size: 200px;
+	}
+
+	#end-beat {
+		position: fixed;
+		z-index: 9500;
+		bottom: 7%;
+		width: 475px;
+		left: 50%;
+	    transform: translateX(-50%);
+		display: none;
+	}
+
+	#end-beat-text {
+		font-size: 200px;
+	}
+
+
+	.email { /* orig background was black */
+		position: relative;
+		z-index: 1000;
+		left: 0%;
+		padding-left: 1%;
+		padding-right: 1%;
+		background-color: black;
+	}
+
+	.placeholder {
+		font-size: 30px;
+	}
+
+	.placeholder span {
+		color: black;
+	}
+}

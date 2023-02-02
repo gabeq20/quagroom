@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="keywords" content="quagroom, free beats, rap beats, free rap beats">
+		<meta name="description" content="The Quagroom">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>QUAGROOM</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron|Russo+One|Helvetica"> 
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body onload="moveAll()">
+		<div id="page-container">
+			<div id="header">
+				<span class="email">QUAG@QUAGROOM.COM</span>
+				<span id="quagroom-1-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-2-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-3-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-4-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-5-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-6-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-7-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-8-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-9-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-10-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-11-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-12-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-13-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-14-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-15-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-16-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-17-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-18-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-19-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-20-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-21-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-22-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-23-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-24-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-25-header" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-26-header" class="quagroom">QUAGROOM</span>
+				<span id="date-header" class="current-date"></span>
+			</div>
+			<div class="placeholder"><span>QUAG@QUAGROOM.COM</span></div>
+			<div id="pause-resume" style="cursor:pointer" onclick="pauseResume()">
+				<span id="pause-resume-text"></span>
+			</div>
+			<div id="end-beat" style="cursor:pointer" onclick="endBeat()">
+				<span id="end-beat-text"></span>
+			</div>
+			<div id="beat052" class='beat-wrap'>
+				<span id="bn052" class="beat-number">052</span>
+				<audio id="audio052">
+					<source src="Beats\beat52.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp052" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio052', '052', 'bn052', 'pp052', 'dl052', 'date052')">PLAY</span>
+				<a href="Beats/beat52.flac" download>
+					<span id="dl052" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date13">
+				<span id="date052" class="date">
+					<script>
+						const date052 = new Date(2022, 9, 19, 13, 21, 15);
+						let date052String = (date052.getMonth() + 1) + " " + date052.getDate() + " " 
+							+ date052.getFullYear() + " " + date052.toLocaleTimeString();
+						document.getElementById("date052").innerHTML = date052String;
+					</script>
+				</span>
+			</div>
+			<div id="beat048" class='beat-wrap'>
+				<span id="bn048" class="beat-number">048</span>
+				<audio id="audio048">
+					<source src="Beats\beat48.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp048" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio048', '048', 'bn048', 'pp048', 'dl048', 'date048')">PLAY</span>
+				<a href="Beats/beat48.flac" download>
+					<span id="dl048" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date13">
+				<span id="date048" class="date">
+					<script>
+						const date048 = new Date(2022, 9, 17, 20, 54, 31);
+						let date048String = (date048.getMonth() + 1) + " " + date048.getDate() + " " 
+							+ date048.getFullYear() + " " + date048.toLocaleTimeString();
+						document.getElementById("date048").innerHTML = date048String;
+					</script>
+				</span>
+			</div>
+			<div id="beat046" class='beat-wrap'>
+				<span id="bn046" class="beat-number">046</span>
+				<audio id="audio046">
+					<source src="Beats\beat46.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp046" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio046', '046', 'bn046', 'pp046', 'dl046', 'date046')">PLAY</span>
+				<a href="Beats/beat46.flac" download>
+					<span id="dl046" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date11">
+				<span id="date046" class="date">
+					<script>
+						const date046 = new Date(2022, 8, 4, 13, 17, 45);
+						let date046String = (date046.getMonth() + 1) + " " + date046.getDate() + " " 
+							+ date046.getFullYear() + " " + date046.toLocaleTimeString();
+						document.getElementById("date046").innerHTML = date046String;
+					</script>
+				</span>
+			</div>
+			<div id="beat043" class='beat-wrap'>
+				<span id="bn043" class="beat-number">043</span>
+				<audio id="audio043">
+					<source src="Beats\beat43.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp043" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio043', '043', 'bn043', 'pp043', 'dl043', 'date043')">PLAY</span>
+				<a href="Beats/beat43.flac" download>
+					<span id="dl043" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date043" class="date">
+					<script>
+						const date043 = new Date(2022, 8, 4, 10, 37, 7);
+						let date043String = (date043.getMonth() + 1) + " " + date043.getDate() + " " 
+							+ date043.getFullYear() + " " + date043.toLocaleTimeString();
+						document.getElementById("date043").innerHTML = date043String;
+					</script>
+				</span>
+			</div>
+			<div id="beat042" class='beat-wrap'>
+				<span id="bn042" class="beat-number">042</span>
+				<audio id="audio042">
+					<source src="Beats\beat42.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp042" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio042', '042', 'bn042', 'pp042', 'dl042', 'date042')">PLAY</span>
+				<a href="Beats/beat42.flac" download>
+					<span id="dl042" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date042" class="date">
+					<script>
+						const date042 = new Date(2022, 8, 4, 10, 35, 42);
+						let date042String = (date042.getMonth() + 1) + " " + date042.getDate() + " " 
+							+ date042.getFullYear() + " " + date042.toLocaleTimeString();
+						document.getElementById("date042").innerHTML = date042String;
+					</script>
+				</span>
+			</div>
+			<div id="beat040" class='beat-wrap'>
+				<span id="bn040" class="beat-number">040</span>
+				<audio id="audio040">
+					<source src="Beats\beat40.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp040" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio040', '040', 'bn040', 'pp040', 'dl040', 'date040')">PLAY</span>
+				<a href="Beats/beat40.flac" download>
+					<span id="dl040" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date040" class="date">
+					<script>
+						const date040 = new Date(2022, 7, 3, 11, 38, 53);
+						let date040String = (date040.getMonth() + 1) + " " + date040.getDate() + " " 
+							+ date040.getFullYear() + " " + date040.toLocaleTimeString();
+						document.getElementById("date040").innerHTML = date040String;
+					</script>
+				</span>
+			</div>
+			<div id="beat039" class='beat-wrap'>
+				<span id="bn039" class="beat-number">039</span>
+				<audio id="audio039">
+					<source src="Beats\beat39.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp039" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio039', '039', 'bn039', 'pp039', 'dl039', 'date039')">PLAY</span>
+				<a href="Beats/beat39.flac" download>
+					<span id="dl039" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date13">
+				<span id="date039" class="date">
+					<script>
+						const date039 = new Date(2022, 6, 27, 11, 47, 20);
+						let date039String = (date039.getMonth() + 1) + " " + date039.getDate() + " " 
+							+ date039.getFullYear() + " " + date039.toLocaleTimeString();
+						document.getElementById("date039").innerHTML = date039String;
+					</script>
+				</span>
+			</div>
+			<div id="beat038" class='beat-wrap'>
+				<span id="bn038" class="beat-number">038</span>
+				<audio id="audio038">
+					<source src="Beats\beat38.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp038" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio038', '038', 'bn038', 'pp038', 'dl038', 'date038')">PLAY</span>
+				<a href="Beats/beat38.flac" download>
+					<span id="dl038" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date038" class="date">
+					<script>
+						const date038 = new Date(2022, 6, 25, 18, 25, 12);
+						let date038String = (date038.getMonth() + 1) + " " + date038.getDate() + " " 
+							+ date038.getFullYear() + " " + date038.toLocaleTimeString();
+						document.getElementById("date038").innerHTML = date038String;
+					</script>
+				</span>
+			</div>
+			<div id="beat037" class='beat-wrap'>
+				<span id="bn037" class="beat-number">037</span>
+				<audio id="audio037">
+					<source src="Beats\beat37.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp037" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio037', '037', 'bn037', 'pp037', 'dl037', 'date037')">PLAY</span>
+				<a href="Beats/beat37.flac" download>
+					<span id="dl037" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date037" class="date">
+					<script>
+						const date037 = new Date(2022, 6, 21, 18, 28, 6);
+						let date037String = (date037.getMonth() + 1) + " " + date037.getDate() + " " 
+							+ date037.getFullYear() + " " + date037.toLocaleTimeString();
+						document.getElementById("date037").innerHTML = date037String;
+					</script>
+				</span>
+			</div>
+			<div id="beat035" class='beat-wrap'>
+				<span id="bn035" class="beat-number">035</span>
+				<audio id="audio035">
+					<source src="Beats\beat35.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp035" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio035', '035', 'bn035', 'pp035', 'dl035', 'date035')">PLAY</span>
+				<a href="Beats/beat35.flac" download>
+					<span id="dl035" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date035" class="date">
+					<script>
+						const date035 = new Date(2022, 6, 18, 15, 49, 10);
+						let date035String = (date035.getMonth() + 1) + " " + date035.getDate() + " " 
+							+ date035.getFullYear() + " " + date035.toLocaleTimeString();
+						document.getElementById("date035").innerHTML = date035String;
+					</script>
+				</span>
+			</div>
+			<div id="beat033" class='beat-wrap'>
+				<span id="bn033" class="beat-number">033</span>
+				<audio id="audio033">
+					<source src="Beats\beat33.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp033" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio033', '033', 'bn033', 'pp033', 'dl033', 'date033')">PLAY</span>
+				<a href="Beats/beat33.flac" download>
+					<span id="dl033" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date033" class="date">
+					<script>
+						const date033 = new Date(2022, 6, 18, 15, 47, 45);
+						let date033String = (date033.getMonth() + 1) + " " + date033.getDate() + " " 
+							+ date033.getFullYear() + " " + date033.toLocaleTimeString();
+						document.getElementById("date033").innerHTML = date033String;
+					</script>
+				</span>
+			</div>
+			<div id="beat032" class='beat-wrap'>
+				<span id="bn032" class="beat-number">032</span>
+				<audio id="audio032">
+					<source src="Beats\beat32.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp032" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio032', '032', 'bn032', 'pp032', 'dl032', 'date032')">PLAY</span>
+				<a href="Beats/beat32.flac" download>
+					<span id="dl032" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date11">
+				<span id="date032" class="date">
+					<script>
+						const date032 = new Date(2022, 6, 9, 1, 4, 30);
+						let date032String = (date032.getMonth() + 1) + " " + date032.getDate() + " " 
+							+ date032.getFullYear() + " " + date032.toLocaleTimeString();
+						document.getElementById("date032").innerHTML = date032String;
+					</script>
+				</span>
+			</div>
+			<div id="beat031" class='beat-wrap'>
+				<span id="bn031" class="beat-number">031</span>
+				<audio id="audio031">
+					<source src="Beats\beat31.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp031" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio031', '031', 'bn031', 'pp031', 'dl031', 'date031')">PLAY</span>
+				<a href="Beats/beat31.flac" download>
+					<span id="dl031" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date11">
+				<span id="date031" class="date">
+					<script>
+						const date031 = new Date(2022, 6, 8, 21, 6, 16);
+						let date031String = (date031.getMonth() + 1) + " " + date031.getDate() + " " 
+							+ date031.getFullYear() + " " + date031.toLocaleTimeString();
+						document.getElementById("date031").innerHTML = date031String;
+					</script>
+				</span>
+			</div>
+			<div id="beat030" class='beat-wrap'>
+				<span id="bn030" class="beat-number">030</span>
+				<audio id="audio030">
+					<source src="Beats\beat30.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp030" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio030', '030', 'bn030', 'pp030', 'dl030', 'date030')">PLAY</span>
+				<a href="Beats/beat30.flac" download>
+					<span id="dl030" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date030" class="date">
+					<script>
+						const date030 = new Date(2022, 6, 6, 23, 10, 46);
+						let date030String = (date030.getMonth() + 1) + " " + date030.getDate() + " " 
+							+ date030.getFullYear() + " " + date030.toLocaleTimeString();
+						document.getElementById("date030").innerHTML = date030String;
+					</script>
+				</span>
+			</div>
+			<div id="beat027" class='beat-wrap'>
+				<span id="bn027" class="beat-number">027</span>
+				<audio id="audio027">
+					<source src="Beats\beat27.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp027" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio027', '027', 'bn027', 'pp027', 'dl027', 'date027')">PLAY</span>
+				<a href="Beats/beat27.flac" download>
+					<span id="dl027" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date027" class="date">
+					<script>
+						const date027 = new Date(2022, 5, 10, 17, 27, 7);
+						let date027String = (date027.getMonth() + 1) + " " + date027.getDate() + " " 
+							+ date027.getFullYear() + " " + date027.toLocaleTimeString();
+						document.getElementById("date027").innerHTML = date027String;
+					</script>
+				</span>
+			</div>
+			<div id="beat025" class='beat-wrap'>
+				<span id="bn025" class="beat-number">025</span>
+				<audio id="audio025">
+					<source src="Beats\beat25.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp025" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio025', '025', 'bn025', 'pp025', 'dl025', 'date025')">PLAY</span>
+				<a href="Beats/beat25.flac" download>
+					<span id="dl025" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date13">
+				<span id="date025" class="date">
+					<script>
+						const date025 = new Date(2022, 4, 23, 23, 47, 50);
+						let date025String = (date025.getMonth() + 1) + " " + date025.getDate() + " " 
+							+ date025.getFullYear() + " " + date025.toLocaleTimeString();
+						document.getElementById("date025").innerHTML = date025String;
+					</script>
+				</span>
+			</div>
+			<div id="beat024" class='beat-wrap'>
+				<span id="bn024" class="beat-number">024</span>
+				<audio id="audio024">
+					<source src="Beats\beat24.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp024" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio024', '024', 'bn024', 'pp024', 'dl024', 'date024')">PLAY</span>
+				<a href="Beats/beat24.flac" download>
+					<span id="dl024" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date13">
+				<span id="date024" class="date">
+					<script>
+						const date024 = new Date(2022, 4, 20, 23, 37, 43);
+						let date024String = (date024.getMonth() + 1) + " " + date024.getDate() + " " 
+							+ date024.getFullYear() + " " + date024.toLocaleTimeString();
+						document.getElementById("date024").innerHTML = date024String;
+					</script>
+				</span>
+			</div>
+			<div id="beat022" class='beat-wrap'>
+				<span id="bn022" class="beat-number">022</span>
+				<audio id="audio022">
+					<source src="Beats\beat22.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp022" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio022', '022', 'bn022', 'pp022', 'dl022', 'date022')">PLAY</span>
+				<a href="Beats/beat22.flac" download>
+					<span id="dl022" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date11">
+				<span id="date022" class="date">
+					<script>
+						const date022 = new Date(2022, 4, 7, 13, 20, 20);
+						let date022String = (date022.getMonth() + 1) + " " + date022.getDate() + " " 
+							+ date022.getFullYear() + " " + date022.toLocaleTimeString();
+						document.getElementById("date022").innerHTML = date022String;
+					</script>
+				</span>
+			</div>
+			<div id="beat021" class='beat-wrap'>
+				<span id="bn021" class="beat-number">021</span>
+				<audio id="audio021">
+					<source src="Beats\beat21.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp021" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio021', '021', 'bn021', 'pp021', 'dl021', 'date021')">PLAY</span>
+				<a href="Beats/beat21.flac" download>
+					<span id="dl021" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date11">
+				<span id="date021" class="date">
+					<script>
+						const date021 = new Date(2022, 4, 6, 20, 34, 35);
+						let date021String = (date021.getMonth() + 1) + " " + date021.getDate() + " " 
+							+ date021.getFullYear() + " " + date021.toLocaleTimeString();
+						document.getElementById("date021").innerHTML = date021String;
+					</script>
+				</span>
+			</div>
+			<div id="beat020" class='beat-wrap'>
+				<span id="bn020" class="beat-number">020</span>
+				<audio id="audio020">
+					<source src="Beats\beat20.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp020" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio020', '020', 'bn020', 'pp020', 'dl020', 'date020')">PLAY</span>
+				<a href="Beats/beat20.flac" download>
+					<span id="dl020" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date020" class="date">
+					<script>
+						const date020 = new Date(2022, 4, 5, 22, 52, 13);
+						let date020String = (date020.getMonth() + 1) + " " + date020.getDate() + " " 
+							+ date020.getFullYear() + " " + date020.toLocaleTimeString();
+						document.getElementById("date020").innerHTML = date020String;
+					</script>
+				</span>
+			</div>
+			<div id="beat018" class='beat-wrap'>
+				<span id="bn018" class="beat-number">018</span>
+				<audio id="audio018">
+					<source src="Beats\beat18.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp018" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio018', '018', 'bn018', 'pp018', 'dl018', 'date018')">PLAY</span>
+				<a href="Beats/beat18.flac" download>
+					<span id="dl018" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date018" class="date">
+					<script>
+						const date018 = new Date(2022, 3, 19, 18, 11, 15);
+						let date018String = (date018.getMonth() + 1) + " " + date018.getDate() + " " 
+							+ date018.getFullYear() + " " + date018.toLocaleTimeString();
+						document.getElementById("date018").innerHTML = date018String;
+					</script>
+				</span>
+			</div>
+			<div id="beat016" class='beat-wrap'>
+				<span id="bn016" class="beat-number">016</span>
+				<audio id="audio016">
+					<source src="Beats\beat16.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp016" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio016', '016', 'bn016', 'pp016', 'dl016', 'date016')">PLAY</span>
+				<a href="Beats/beat16.flac" download>
+					<span id="dl016" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date016" class="date">
+					<script>
+						const date016 = new Date(2022, 3, 10, 15, 0, 23);
+						let date016String = (date016.getMonth() + 1) + " " + date016.getDate() + " " 
+							+ date016.getFullYear() + " " + date016.toLocaleTimeString();
+						document.getElementById("date016").innerHTML = date016String;
+					</script>
+				</span>
+			</div>
+			<div id="beat013" class='beat-wrap'>
+				<span id="bn013" class="beat-number">013</span>
+				<audio id="audio013">
+					<source src="Beats\beat13.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp013" class="play-pause" style="cursor:pointer" 
+				onclick="startBeat('audio013', '013', 'bn013', 'pp013', 'dl013', 'date013')">PLAY</span>
+				<a href="Beats/beat13.flac" download>
+					<span id="dl013" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date013" class="date">
+					<script>
+						const date013 = new Date(2022, 3, 4, 11, 49, 57);
+						let date013String = (date013.getMonth() + 1) + " " + date013.getDate() + " " 
+							+ date013.getFullYear() + " " + date013.toLocaleTimeString();
+						document.getElementById("date013").innerHTML = date013String;
+					</script>
+				</span>
+			</div>
+			<div id="beat009" class='beat-wrap'>
+				<span id="bn009" class="beat-number">009</span>
+				<audio id="audio009">
+					<source src="Beats\beat9.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp009" class="play-pause" style="cursor:pointer" onclick="startBeat('audio009', '009', 'bn009', 'pp009', 'dl009', 'date009')">
+				PLAY</span>
+				<span id="dots-9-2" class="dots"></span>
+				<a href="Beats/beat9.flac" download>
+					<span id="dl009" class="download">DOWNLOAD</span>
+				</a>
+				<span id="dots-9-3" class="dots"></span>
+			</div>
+			<div class="date13">
+				<span id="date009" class="date">
+					<script>
+						const date009 = new Date(2022, 2, 21, 22, 29, 36);
+						let date009String = (date009.getMonth() + 1) + " " + date009.getDate() + " " 
+							+ date009.getFullYear() + " " + date009.toLocaleTimeString();
+						document.getElementById("date009").innerHTML = date009String;
+					</script>
+				</span>
+			</div>
+			<div id="beat006" class='beat-wrap'>
+				<span id="bn006" class="beat-number">006</span>
+				<audio id="audio006">
+					<source src="Beats\beat6.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp006" class="play-pause" style="cursor:pointer" onclick="startBeat('audio006', '006', 'bn006', 'pp006', 'dl006', 'date006')">
+				PLAY</span>
+				<span id="dots-6-2" class="dots"></span>
+				<a href="Beats/beat6.flac" download>
+					<span id="dl006" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date006" class="date">
+					<script>
+						const date006 = new Date(2022, 1, 28, 15, 58, 48);
+						let date006String = (date006.getMonth() + 1) + " " + date006.getDate() + " " 
+							+ date006.getFullYear() + " " + date006.toLocaleTimeString();
+						document.getElementById("date006").innerHTML = date006String;
+					</script>
+				</span>
+			</div>
+			<div id="beat004" class='beat-wrap'>
+				<span id="bn004" class="beat-number">004</span>
+				<audio id="audio004">
+					<source src="Beats\beat4.flac" type="audio/mpeg">
+					Audio not supported
+				</audio>
+				<span id="pp004" class="play-pause" style="cursor:pointer" onclick="startBeat('audio004', '004', 'bn004', 'pp004', 'dl004', 'date004')">
+				PLAY</span>
+				<span id="dots-4-2" class="dots"></span>
+				<a href="Beats/beat4.flac" download>
+					<span id="dl004" class="download">DOWNLOAD</span>
+				</a>
+			</div>
+			<div class="date12">
+				<span id="date004" class="date">
+					<script>
+						const date004 = new Date(2022, 1, 14, 9, 57, 20);
+						let date004String = (date004.getMonth() + 1) + " " + date004.getDate() + " " 
+							+ date004.getFullYear() + " " + date004.toLocaleTimeString();
+						document.getElementById("date004").innerHTML = date004String;
+					</script>
+				</span>
+			</div>
+			<div class="placeholder"><span>QUAG@QUAGROOM.COM</span></div>
+			<div id="footer">
+				<span class="email">QUAG@QUAGROOM.COM</span>
+				<span id="quagroom-1-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-2-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-3-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-4-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-5-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-6-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-7-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-8-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-9-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-10-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-11-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-12-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-13-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-14-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-15-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-16-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-17-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-18-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-19-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-20-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-21-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-22-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-23-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-24-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-25-footer" class="quagroom">QUAGROOM</span>
+				<span id="quagroom-26-footer" class="quagroom">QUAGROOM</span>
+				<span id="date-footer" class="current-date"></span>
+			</div>
+		</div>
+		<script>
+			const dateCurrent = new Date();
+			let dateCurrentString = (dateCurrent.getMonth() + 1) + " " + dateCurrent.getDate() + " " 
+				+ dateCurrent.getFullYear() + " " + dateCurrent.toLocaleTimeString();
+			document.getElementById("date-header").innerHTML = dateCurrentString;
+			document.getElementById("date-footer").innerHTML = dateCurrentString;
+		</script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
